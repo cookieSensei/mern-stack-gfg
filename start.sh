@@ -1,0 +1,6 @@
+echo "----------------------------------"
+echo "To run your HTML file:"
+echo "python3 -m http.server 3000"
+echo "Then open:"
+echo "http://localhost:3000/resume.html"
+echo "----------------------------------"
