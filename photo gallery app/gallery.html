@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Screenshot Gallery</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  background: #8a0202;
+  color: white;
+}
+
+
+.sidebar {
+  width: 220px;
+  background: #2b2b2b;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  border-radius: 600px;
+}
+
+.sidebar a:hover {
+  background: #000000;
+  color: white;
+}
+
+
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.topbar {
+  height: 60px;
+  background: #000000;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+
+
+.gallery {
+  display:flex;
+  padding: 50px ;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+
+
+.card {
+  width: 300px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.card p {
+  font-size: 15px;
+  color: white;
+}
+</style>
+</head>
+
+<body>
+
+
+    <!-- /* wrote this to make it like my linux */  -->
+<div class="sidebar">
+  <h2>Files</h2>
+  <a href="#Sample location on my ubuntu">Home</a>
+  <a href="#Sample location on my ubuntu">Recent</a>
+  <a href="#Sample location on my ubuntu">Starred</a>
+  <a href="#Sample location on my ubuntu">Documents</a>
+  <a href="#Sample location on my ubuntu">Pictures</a>
+  <a href="#Sample location on my ubuntu">Downloads</a>
+</div>
+
+<div class="main">
+  <div class="topbar">
+    Ubuntu Gallery
+  </div>
+
+  <div class="gallery">
+
+    <div class="card">
+      <img src="./pics/1.png">
+      <p>Screenshot-01.png</p>
+    </div>
+
+    <div class="card">
+      <img src="./pics/2.png">
+      <p>Screenshot-02.png</p>
+    </div>
+
+    <div class="card">
+      <img src="./pics/3.png">
+      <p>Screenshot-03.png</p>
+    </div>
+
+    <div class="card">
+      <img src="./pics/4.png">
+      <p>Screenshot-04.png</p>
+    </div>
+
+    <div class="card">
+      <img src="./pics/5.png">
+      <p>Screenshot-05.png</p>
+    </div>
+
+    <div class="card">
+      <img src="./pics/6.png">
+      <p>Screenshot-06.png</p>
+    </div>
+
+    <div class="card">
+      <img src="./pics/7.png">
+      <p>Screenshot-07.png</p>
+    </div>
+
+    <div class="card">
+      <img src="./pics/8.png">
+      <p>Screenshot-08.png</p>
+    </div>
+
+
+    <div class="card">
+      <img src="./pics/9.png">
+      <p>Screenshot-09.png</p>
+    </div>
+
+
+    <div class="card">
+      <img src="./pics/10.png">
+      <p>Screenshot-10.png</p>
+    </div>
+
+
+
+    
+
+    
+  </div>
+</div>
+
+</body>
+</html>
